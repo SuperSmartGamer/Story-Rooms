@@ -1,4 +1,5 @@
 // src/App.tsx
+<<<<<<< HEAD
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
@@ -46,3 +47,22 @@ function App() {
 // }
 
 export default App
+=======
+import React from 'react';
+import './App.css'; // Keep basic styling
+import Whiteboard from './Whiteboard'; // Import your Whiteboard component
+
+function App() {
+  return (
+    <div className="App">
+      <h1>My Interactive Whiteboard</h1>
+      <Whiteboard />
+      <p className="read-the-docs" style={{ marginTop: '20px', color: '#666' }}>
+        Click 'Add Drawing Area', 'Add Text', or 'Add Image' to start!
+      </p>
+    </div>
+  );
+}
+
+export default App;
+>>>>>>> 7b5bbd5 (Initial project files)
